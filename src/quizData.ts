@@ -62,6 +62,15 @@ export interface Option {
       { text: "duh.", value: "calico" },
       { text: "mmmmmh", value: "bombay" },
     ],
+  },
+  {
+    question: "When do you wake up?",
+    options: [
+      { text: "8AM", value: "bsh" },
+      { text: "2PM", value: "ragdoll" },
+      { text: "7AM", value: "calico" },
+      { text: "10AM", value: "bombay" },
+    ],
   }
  ];
  
