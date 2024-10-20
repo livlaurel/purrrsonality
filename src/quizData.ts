@@ -53,6 +53,15 @@ export interface Option {
       { text: "mew", value: "ragdoll" },
       { text: "meoooow", value: "bombay" },
     ],
+  },
+  {
+    question: "Do you get annoyed easily?",
+    options: [
+      { text: "ehhhhh sometimes", value: "bsh" },
+      { text: "nah", value: "ragdoll" },
+      { text: "duh.", value: "calico" },
+      { text: "mmmmmh", value: "bombay" },
+    ],
   }
  ];
  
