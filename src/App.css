@@ -1,3 +1,4 @@
+/* Default styles (for laptops and desktops) */
 body {
   display: flex;
   justify-content: center;
@@ -12,15 +13,14 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;      
+  align-items: center;
   text-align: center;
   padding: 20px;
   background-color: #9caf88;
-  width: 1350px;
+  width: 1350px; /* Fixed size for laptops/desktops */
   height: 700px;
   border-radius: 5px;
 }
-
 
 .h1box {
   text-align: center;
@@ -30,7 +30,7 @@ body {
   height: 150px;
   border-radius: 5px;
   margin-bottom: 20px;
-  font-size: 25px; 
+  font-size: 25px;
 }
 
 button.startbutton {
@@ -46,4 +46,44 @@ button.startbutton {
 
 button.startbutton:hover {
   background-color: #ff985a;
+}
+
+/* Media Queries */
+
+/* Mobile phones (portrait and landscape) */
+@media only screen and (max-width: 600px) {
+  .Meow {
+    width: 95%; /* Increase width to fit smaller screens */
+    height: auto; /* Let height adjust based on content */
+    padding: 10px;
+  }
+
+  .h1box {
+    width: 90%;
+    height: auto;
+    font-size: 6vw; /* Adjust font size for smaller screens */
+  }
+
+  button.startbutton {
+    font-size: 6vw; /* Adjust button font size */
+    padding: 8px;
+  }
+}
+
+/* Tablets and small laptops */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .Meow {
+    width: 80%; /* Smaller width for tablets */
+    height: auto;
+    padding: 15px;
+  }
+
+  .h1box {
+    width: 85%;
+    font-size: 4.5vw; /* Adjust font size for tablets */
+  }
+
+  button.startbutton {
+    font-size: 5vw;
+  }
 }
