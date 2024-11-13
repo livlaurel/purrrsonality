@@ -7,7 +7,7 @@ interface CatImageProps {
 const CatImage: React.FC<CatImageProps> = ({ name }) => {
   return (
     <div style={imageContainerStyle}>
-      <img src="/path/to/cat-image.png" alt={`${name} the cat`} style={imageStyle} />
+      <img src="../images/bombacat.png" alt={`${name} the cat`} style={imageStyle} />
       <p style={nameStyle}>{name}</p>
     </div>
   );
