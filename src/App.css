@@ -17,7 +17,7 @@ body {
   text-align: center;
   padding: 20px;
   background-color: #9caf88;
-  width: 1350px; /* Fixed size for laptops/desktops */
+  width: 1350px; 
   height: 700px;
   border-radius: 5px;
 }
