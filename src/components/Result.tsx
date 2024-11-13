@@ -1,8 +1,8 @@
 import React from "react";
 import calico from "../images/calico.png";
-import bsh from "../images/bsh.png";
 import ragdoll from "../images/ragdoll.png";
 import CatProfileCard from "./bombay/bombayprofile";
+import BSHCatProfileCard from "./bsh/bshprofile";
 
 interface ResultProps {
   answers: string[];
@@ -25,13 +25,16 @@ const Result: React.FC<ResultProps> = ({ answers }) => {
 
   const images: { [key: string]: string } = {
     calico: calico,
-    bsh: bsh,
     ragdoll: ragdoll,
   };
 
   // If the result is "Bombay," display the CatProfileCard component
   if (result === "bombay") {
     return <CatProfileCard />;
+  }
+
+  else if (result === "bsh") {
+    return <BSHCatProfileCard />;
   }
 
   // Otherwise, display the corresponding image

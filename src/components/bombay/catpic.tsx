@@ -1,4 +1,5 @@
 import React from 'react';
+import bombay from "../../images/bombacat.png"; // Updated path
 
 interface CatImageProps {
   name: string;
@@ -7,7 +8,7 @@ interface CatImageProps {
 const CatImage: React.FC<CatImageProps> = ({ name }) => {
   return (
     <div style={imageContainerStyle}>
-      <img src="../images/bombacat.png" alt={`${name} the cat`} style={imageStyle} />
+      <img src={bombay} style={imageStyle} />
       <p style={nameStyle}>{name}</p>
     </div>
   );
@@ -19,8 +20,9 @@ const imageContainerStyle = {
 };
 
 const imageStyle = {
-  width: '100px',
-  height: '100px',
+  width: '100%', 
+  height: 'auto',
+  objectFit: 'contain' as 'contain', 
 };
 
 const nameStyle = {
