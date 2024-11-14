@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.01be50cd.css",
-    "main.js": "/static/js/main.743a371b.js",
-    "static/media/ragdoll.png": "/static/media/ragdoll.2c045d33f61f32d5d594.png",
+    "main.js": "/static/js/main.d2392084.js",
     "index.html": "/index.html",
     "main.01be50cd.css.map": "/static/css/main.01be50cd.css.map",
-    "main.743a371b.js.map": "/static/js/main.743a371b.js.map"
+    "main.d2392084.js.map": "/static/js/main.d2392084.js.map"
   },
   "entrypoints": [
     "static/css/main.01be50cd.css",
-    "static/js/main.743a371b.js"
+    "static/js/main.d2392084.js"
   ]
 }
