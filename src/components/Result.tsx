@@ -1,8 +1,8 @@
 import React from "react";
-import calico from "../images/calico.png";
-import ragdoll from "../images/ragdoll.png";
 import CatProfileCard from "./bombay/bombayprofile";
 import BSHCatProfileCard from "./bsh/bshprofile";
+import CaliCatProfileCard from "./calico/caliprofile";
+import RagCatProfileCard from "./ragdoll/ragprofile";
 
 interface ResultProps {
   answers: string[];
@@ -16,6 +16,8 @@ const Result: React.FC<ResultProps> = ({ answers }) => {
       counts[answer] = (counts[answer] || 0) + 1;
     });
 
+    console.log("Answer counts:", counts);
+
     return Object.keys(counts).reduce((a, b) =>
       counts[a] > counts[b] ? a : b
     );
@@ -23,32 +25,19 @@ const Result: React.FC<ResultProps> = ({ answers }) => {
 
   const result = getResult();
 
-  const images: { [key: string]: string } = {
-    calico: calico,
-    ragdoll: ragdoll,
-  };
+  console.log("Quiz result:", result);
 
-  // If the result is "Bombay," display the CatProfileCard component
   if (result === "bombay") {
     return <CatProfileCard />;
-  }
-
-  else if (result === "bsh") {
+  } else if (result === "bsh") {
     return <BSHCatProfileCard />;
+  } else if (result === "calico") {
+    return <CaliCatProfileCard />;
+  } else if (result === "ragdoll") {
+    return <RagCatProfileCard />;
   }
 
-  // Otherwise, display the corresponding image
-  const imageSrc = images[result];
-
-  return (
-    <div>
-      {imageSrc ? (
-        <img src={imageSrc} alt={result} style={{ maxWidth: "90%", height: "90%" }} />
-      ) : (
-        <p>No matching result found.</p>
-      )}
-    </div>
-  );
+  return null;
 };
 
 export default Result;

@@ -8,7 +8,7 @@ const CatProfileCard: React.FC = () => {
     <div style={cardStyle}>
       <CatImage name="Bombay" />
       <Traits />
-      <CatFact fact="Bombays are known for their playful and affectionate nature!" />
+      <CatFact fact="Bombays are very social and love attention—often follow their owners around!" />
     </div>
   );
 };

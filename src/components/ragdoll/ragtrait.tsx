@@ -1,5 +1,5 @@
 import React from 'react';
-import TraitBar from './calitraitbar';
+import TraitBar from './ragtraitbar';
 
 const Traits: React.FC = () => {
   return (

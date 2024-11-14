@@ -1,5 +1,6 @@
 import React from 'react';
-import bombay from "../../images/bombacat.png"; // Updated path
+import bombay from "../../images/bombacat.png";
+
 
 interface CatImageProps {
   name: string;

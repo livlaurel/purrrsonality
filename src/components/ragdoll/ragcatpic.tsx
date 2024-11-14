@@ -1,5 +1,5 @@
 import React from 'react';
-import calico from "../../images/calicat.png"; // Update the image path
+import calico from "../../images/ragcat.png"; // Update the image path
 
 interface CatImageProps {
   name: string;
