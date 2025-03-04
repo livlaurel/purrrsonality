@@ -6,9 +6,9 @@ const Traits: React.FC = () => {
     <div style={traitsContainerStyle}>
       <h3 style={headerStyle}>Traits</h3>
       <TraitBar label="Happiness" value={80} icon="😊" />
-      <TraitBar label="Affection" value={50} icon="❤️" />
-      <TraitBar label="Playfulness" value={70} icon="🧶" />
-      <TraitBar label="Sleepiness" value={30} icon="💤" />
+      <TraitBar label="Affection" value={90} icon="❤️" />
+      <TraitBar label="Playfulness" value={35} icon="🧶" />
+      <TraitBar label="Sleepiness" value={100} icon="💤" />
     </div>
   );
 };

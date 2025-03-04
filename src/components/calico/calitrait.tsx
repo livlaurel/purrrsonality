@@ -5,10 +5,10 @@ const Traits: React.FC = () => {
   return (
     <div style={traitsContainerStyle}>
       <h3 style={headerStyle}>Traits</h3>
-      <TraitBar label="Happiness" value={80} icon="😊" />
-      <TraitBar label="Affection" value={50} icon="❤️" />
-      <TraitBar label="Playfulness" value={70} icon="🧶" />
-      <TraitBar label="Sleepiness" value={30} icon="💤" />
+      <TraitBar label="Happiness" value={50} icon="😊" />
+      <TraitBar label="Affection" value={15} icon="❤️" />
+      <TraitBar label="Playfulness" value={90} icon="🧶" />
+      <TraitBar label="Sleepiness" value={10} icon="💤" />
     </div>
   );
 };
