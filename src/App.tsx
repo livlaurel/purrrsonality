@@ -50,7 +50,7 @@ const App: React.FC = () => {
         <Page />
       )}
       <footer className="footer">
-        <p>art & code by: <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer">Your Name</a></p>
+        <p>art & code by: <a href="https://www.olaurel.dev/" >@livlaurel</a></p>
       </footer>
     </div>
   );
