@@ -94,6 +94,6 @@ h1:hover{
   }
   100% {
     top: 100vh;
-    opacity: 0;
+    opacity: 100;
   }
 }
