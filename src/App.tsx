@@ -45,13 +45,15 @@ const App: React.FC = () => {
           <button className="start-button" onClick={handleStartButtonClick}>
             Start Quiz
           </button>
+
+          <footer className="footer">
+            <p>art & code by: <a href="https://www.olaurel.dev/" >@livlaurel</a></p>
+            <p>feedback welcome!</p>
+          </footer>
         </>
       ) : (
         <Page />
       )}
-      <footer className="footer">
-        <p>art & code by: <a href="https://www.olaurel.dev/" >@livlaurel</a></p>
-      </footer>
     </div>
   );
 };
