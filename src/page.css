@@ -7,13 +7,6 @@ body {
   font-family: Verdana, sans-serif;
 }
 
-.Meow {
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   font-family: Verdana, sans-serif;
- }
-
  .button-container {
   display: flex;         
   flex-direction: column;      
