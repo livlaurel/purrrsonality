@@ -37,6 +37,27 @@ body {
   color: #000000;
 }
 
+h1:hover{
+  color: #fffcf4;
+  
+}
+
+.footer {
+  font-family: Courier, monospace;
+  background-color: #9caf88;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer p {
+  margin: 0;
+  color: #333;
+}
+
 @media only screen and (max-width: 600px) {
   .h1box {
     width: 90%;
@@ -56,5 +77,23 @@ body {
 
   button.startbutton {
     font-size: 4vw;
+  }
+}
+
+.falling-cat {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    top: -50px;
+    opacity: 1;
+  }
+  100% {
+    top: 100vh;
+    opacity: 0;
   }
 }
