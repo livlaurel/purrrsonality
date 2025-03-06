@@ -17,11 +17,7 @@ const cardStyle = {
   display: 'flex',
   flexDirection: 'column' as 'column',
   alignItems: 'center',
-  backgroundColor: '#f5f5f5',
-  border: '2px solid #ddd',
-  borderRadius: '8px',
-  padding: '20px',
-  maxWidth: '400px',
+  width: '100%',
 };
 
 export default CatProfileCard;
