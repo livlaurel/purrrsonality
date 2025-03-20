@@ -51,13 +51,13 @@ body {
 
 .h1box::before {
   left: 10%; 
-  border-width: 0 20px 30px 20px; 
+  border-width: 0 80px 100px 80px; 
   border-color: transparent transparent #99B2DD transparent;
 }
 
 .h1box::after {
   right: 10%; 
-  border-width: 0 20px 30px 20px; 
+  border-width: 0 80px 100px 80px; 
   border-color: transparent transparent #99B2DD transparent;
 }
 

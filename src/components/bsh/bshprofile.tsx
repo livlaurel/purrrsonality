@@ -37,7 +37,7 @@ const contentContainerStyle = {
   flexDirection: 'column' as 'column',
   gap: '10px',
   maxWidth: '850px',
-  backgroundColor: '#f0f0f0',
+  backgroundColor: '#99B2DD',
 };
 
 export default BSHCatProfileCard;

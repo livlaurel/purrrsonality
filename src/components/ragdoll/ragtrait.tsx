@@ -14,7 +14,7 @@ const Traits: React.FC = () => {
 };
 
 const traitsContainerStyle = {
-  width: '100%',
+  width: '670px',
   padding: '10px',
 };
 

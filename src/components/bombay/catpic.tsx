@@ -15,6 +15,12 @@ const CatImage: React.FC<CatImageProps> = ({ name }) => {
   );
 };
 
+interface NameStyle {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: string;
+}
+
 const imageContainerStyle = {
   textAlign: 'center' as 'center',
   marginBottom: '20px',
@@ -26,7 +32,8 @@ const imageStyle = {
   objectFit: 'contain' as 'contain', 
 };
 
-const nameStyle = {
+const nameStyle: NameStyle = {
+  fontFamily: 'Courier, monospace',
   fontSize: '24px',
   fontWeight: 'bold',
 };
