@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.b6547eb1.css",
-    "main.js": "/static/js/main.633dc982.js",
-    "static/media/purrrsonality.png": "/static/media/purrrsonality.39655cb124b9b1bc2bf9.png",
+    "main.js": "/static/js/main.457d0b9c.js",
+    "static/media/purrrlogo.png": "/static/media/purrrlogo.bd9c54372c986b2d3481.png",
     "index.html": "/index.html",
     "main.b6547eb1.css.map": "/static/css/main.b6547eb1.css.map",
-    "main.633dc982.js.map": "/static/js/main.633dc982.js.map"
+    "main.457d0b9c.js.map": "/static/js/main.457d0b9c.js.map"
   },
   "entrypoints": [
     "static/css/main.b6547eb1.css",
-    "static/js/main.633dc982.js"
+    "static/js/main.457d0b9c.js"
   ]
 }
