@@ -5,6 +5,7 @@ import cat1 from "./images/bombacat.png";
 import cat2 from "./images/bshcat.png";
 import cat3 from "./images/calicat.png";
 import cat4 from "./images/ragcat.png";
+import logo from "./images/purrrsonality.png";
 
 const catImages = [cat1, cat2, cat3, cat4];
 
@@ -40,7 +41,7 @@ const App: React.FC = () => {
       {!showPage ? (
         <>
         <div className="h1box">
-          <h1 onClick={handleTitleClick}>Purrrsonality Quiz</h1>
+          <img src={logo} className="logo" onClick={handleTitleClick}></img>
         </div>
           <button className="start-button" onClick={handleStartButtonClick}>
             Start Quiz

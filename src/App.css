@@ -32,11 +32,33 @@ body {
   width: 80%; 
   max-width: 600px;
   height: auto;
-  min-height: 150px;
-  border-radius: 5px;
+  position: relative; 
+  border-radius: 10px;
   margin-bottom: 20px;
   font-size: 1.5rem;
   color: #000000;
+}
+
+.h1box::before,
+.h1box::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.h1box::before {
+  left: 10%; 
+  border-width: 0 20px 30px 20px; 
+  border-color: transparent transparent #99B2DD transparent;
+}
+
+.h1box::after {
+  right: 10%; 
+  border-width: 0 20px 30px 20px; 
+  border-color: transparent transparent #99B2DD transparent;
 }
 
 h1:hover{
