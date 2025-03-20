@@ -5,7 +5,7 @@ import cat1 from "./images/bombacat.png";
 import cat2 from "./images/bshcat.png";
 import cat3 from "./images/calicat.png";
 import cat4 from "./images/ragcat.png";
-import logo from "./images/purrrsonality.png";
+import logo from "./images/purrrlogo.png";
 
 const catImages = [cat1, cat2, cat3, cat4];
 
