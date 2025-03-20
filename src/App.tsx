@@ -47,7 +47,7 @@ const App: React.FC = () => {
           </button>
 
           <footer className="footer">
-            <p>art & code by: <a href="https://www.olaurel.dev/" >@livlaurel</a></p>
+            <p>art & code by: <a href="https://www.olaurel.dev/" style={{ color: "#ffffff" }}>@livlaurel</a></p>
             <p>feedback welcome!</p>
           </footer>
         </>
