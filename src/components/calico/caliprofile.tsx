@@ -5,15 +5,22 @@ import CatFact from './calicatfact';
 
 const CaliCatProfileCard: React.FC = () => {
   return (
-    <div style={cardStyle}>
-      <div style={imageContainerStyle}>
-        <CatImage name="Calico" />
+    <>
+      <div style={cardStyle}>
+        <div style={imageContainerStyle}>
+          <CatImage name="Calico" />
+        </div>
+
+      <div style={colContainerStyle}>
+          <div style={traitsContainerStyle}>
+            <Traits />
+          </div>
+          <div style={factContainerStyle}>
+             <CatFact fact="Calico females due to their genetics and known for being sassy and independent!" />
+          </div>
+        </div>
       </div>
-      <div style={contentContainerStyle}>
-        <Traits />
-        <CatFact fact="Calico females due to their genetics and known for being sassy and independent!" />
-      </div>
-    </div>
+    </>
   );
 };
 
@@ -32,11 +39,24 @@ const imageContainerStyle = {
   maxWidth: '300px',
 };
 
-const contentContainerStyle = {
+const factContainerStyle = {
   display: 'flex',
-  flexDirection: 'column' as 'column',
-  gap: '10px',
   maxWidth: '850px',
   backgroundColor: '#99B2DD',
+  borderRadius: '5px',
+  padding: '10px',
+};
+
+const traitsContainerStyle = {
+  display: 'flex',
+  marginBottom: '20px',
+  maxWidth: '850px',
+  backgroundColor: '#99B2DD',
+  borderRadius: '5px',
+  padding: '10px',
+};
+
+const colContainerStyle = {
+  flexDirection: 'column' as 'column',
 };
 export default CaliCatProfileCard;
